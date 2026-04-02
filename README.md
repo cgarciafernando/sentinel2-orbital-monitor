@@ -15,6 +15,9 @@ An orchestrated workflow using [Prefect](https://www.prefect.io/) that follows a
   * Generates a **32-bit float `.tif`** containing the pure mathematical index values (from -1.0 to 1.0).
   * Generates an **8-bit RGBA `.png`** applying a color palette. This is necessary because web mapping libraries (like Leaflet) cannot natively render raw TIFF files.
 
+<p align="center">
+  <img src="assets/sentinel2_etl_architecture.svg" width="100%" alt="ETL Pipeline Architecture Diagram">
+</p>
 
 ### 2. The Dashboard
 A minimalist web interface built with [NiceGUI](https://nicegui.io/) and [Leaflet](https://leafletjs.com/).
