@@ -1,0 +1,26 @@
+# Security / Credentials
+.env
+
+# Python / Virtual Environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Orchestration / Prefect
+.prefect/
+
+# Satellite Data & Heavy Media
+data/
+*.jp2
+*.tif
+*.tiff
+*.png
+*.SAFE/
+*.safe
+*.zip
+
+# OS generated files
+.DS_Store
+Thumbs.db

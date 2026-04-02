@@ -1,0 +1,17 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+
+  dashboard:
+    build: .
+    command: python dashboard.py
+    volumes:
+      - .:/app
+    ports:
+      - "8501:8501"
+    depends_on:
+      - app

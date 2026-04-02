@@ -1,0 +1,10 @@
+nicegui
+requests
+boto3
+rasterio
+numpy
+shapely
+prefect
+pyproj
+pillow
+matplotlib
