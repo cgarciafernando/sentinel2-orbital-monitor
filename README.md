@@ -1,3 +1,5 @@
+![sentinel2-orbital-monitor](https://socialify.git.ci/cgarciafernando/sentinel2-orbital-monitor/image?font=Inter&language=1&name=1&owner=1&pattern=Circuit+Board&stargazers=1&theme=Dark)
+
 # Sentinel-2 E2E Pipeline & Dashboard
 This is a personal project built with the goal of developing a functional End-to-End (E2E) data pipeline from scratch. The system automates the download of satellite imagery, calculates vegetation indices (NDVI), and serves the data through an interactive dashboard.
 <p align="center">
